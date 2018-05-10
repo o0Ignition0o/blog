@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blogception : Create a blog using Jekyll and Github pages"
+title: "Blogception : Create a blog using Jekyll and Github pages - Part 1"
 author: Jeremy Lempereur - o0Ignition0o
 ---
 
