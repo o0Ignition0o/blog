@@ -1,0 +1,10 @@
+# Site settings
+title: >
+  Jeremy Lempereur
+description: >
+  Mainly blogging about Mozilla, Rustlang, and perhaps some other open source related stuff.
+baseurl: ""
+url: "https://blog.jeremylempereur.com"
+logo: "https://avatars2.githubusercontent.com/u/9465678?s=460&v=4" # This one is used as blog logo
+twitter_username: o0ignition0o # Your twitter handle
+github_username: o0Ignition0o # Your github handle
