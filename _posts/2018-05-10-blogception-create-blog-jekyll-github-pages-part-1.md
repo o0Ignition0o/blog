@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blogception : Create a blog using Jekyll and Github pages - Part 1"
+title: "Blogception : Create a blog using Jekyll and Github pages - Part 1 : Setup and run the blog locally"
 author: Jeremy Lempereur - o0Ignition0o
 ---
 
@@ -15,13 +15,15 @@ One of the main issues I've faced as I was trying to write blog posts (besides c
 - Do I really have to learn _insert_framework_name_here_ just in order to write articles ?
 - Will I have to be mindful of HTML / CSS while I only want to write plain sentences ?
 
-So I looked and found a couple of tools that helped me setup my blog.
+So I looked and found a couple of tools that helped me setup my blog. This is a several parts howto to spare you the trouble :)
 
 In the first part, we check the requirements in order to setup and run the blog locally, and we run our blog for the first time.
 
+In the [second part]({{ "/2018/05/11/blogception-create-blog-jekyll-github-pages-part-2.html" | prepend: site.baseurl }}), we edit the global site configuration, and write our first blog post.
+
 The entire source code of the blog (and its contents) can be found on [a Github repository](https://github.com/o0Ignition0o/blog). Feel free to fork it, edit it, and use it for your own purposes !
 
-# 1. Prerequisites
+## 1. Prerequisites
 
 In order to run a local version of the blog on your computer, and in order to publish it online, you will need a couple of tools : 
 
@@ -33,7 +35,7 @@ Don't worry, you won't actually need to learn and write Ruby, The blog articles 
 
 What you do need to know a bit, is how to use Github and git, since it's out of the scope of this series. A great quickstart on how to use git and github in an Open Source context can be found on [channelcs blog](https://channelcs.github.io/best-practices-in-a-collaborative-environment.html).
 
-# 2. Get the blog boilerplate
+## 2. Get the blog boilerplate
 
 You didn't expect me to let you down and let you start from scratch, did you ? :)
 
@@ -105,9 +107,13 @@ Now visit [http://127.0.0.1:4000/rust-lang-blog-boilerplate/](http://127.0.0.1:4
 
 ![Our first blog is running !]({{ "/images/first_run.png" | prepend: site.baseurl }} "First blog run")
 
+## Conclusion
+
 Congratulations, you have successfully forked, cloned and setup your first blog ! 
 
-In the next article, we'll figure out how to edit the configuration, and we'll write our first blog post together !
+In this article, we figured out how to install the requirements, and how to setup our local jekyll blog.
+
+In the [next article]({{ "/2018/05/10/blogception-create-blog-jekyll-github-pages-part-1.html" | prepend: site.baseurl }}), we'll figure out how to edit the configuration, and we'll write our first blog post together !
 
 If you're really eager to do it, have a look at the [_config.yml](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate/blob/master/_config.yml) file in the boilerplate, as well as the [README.md](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate/blob/master/README.md) file, and the [dummy blog post](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate/blob/master/_posts/2018-05-10-blog-boilerplate.md) :)
 
