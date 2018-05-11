@@ -3,7 +3,7 @@
 This is the code that powers [My Blog]. It is running
 on [GitHub pages].
 
-[the rustlang blog boilerplate]: https://blog.jeremylempereur.com
+[My Blog]: https://blog.jeremylempereur.com
 [GitHub pages]: https://pages.github.com/
 
 This project has been forked from [the blog boilerplate](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate), which has been forked from the awesome [github repo](https://github.com/rust-lang/blog.rust-lang.org) of the [RustLang blog](https://blog.rust-lang.org/)
