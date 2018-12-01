@@ -13,9 +13,9 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:       #ffffff;
+$background-color: #3d4051;
+$brand-color:      #fa8247;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -49,7 +49,7 @@ $on-laptop:        800px;
 ;
 
 .highlight {
-    background-color: #eef;
+    background-color: #272822;
 }
 
 td, th {
