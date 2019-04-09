@@ -9,9 +9,9 @@ Blogception is a series of blog posts on how to create a blog... and posts.
 As part of the [content-o-tron](https://github.com/rust-community/content-o-tron) initiative, we're committed to help each member of the community and each newcomer to share their story using rust.
 This means empowering everyone to write blog posts in order to share feedback with the world.
 
-One of the main issues I've faced as I was trying to write blog posts (besides choosing a topic, and suffering the [impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome); feeling I'm not goot enough to write, or that my experiences are not worth sharing), was the physical setup:
+One of the main issues I've faced as I was trying to write blog posts (besides choosing a topic, and suffering the [impostor syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome); feeling I'm not good enough to write, or that my experiences are not worth sharing), was the physical setup:
 
-- Should I setup a CMS ? 
+- Should I setup a CMS ?
 - Do I really have to learn _insert_framework_name_here_ just in order to write articles ?
 - Will I have to be mindful of HTML / CSS while I only want to write plain sentences ?
 
@@ -25,7 +25,7 @@ The entire source code of the blog (and its contents) can be found on [a Github 
 
 ## 1. Prerequisites
 
-In order to run a local version of the blog on your computer, and in order to publish it online, you will need a couple of tools : 
+In order to run a local version of the blog on your computer, and in order to publish it online, you will need a couple of tools :
 
 - Git, which you can [download and install here](https://git-scm.com/downloads)
 - Ruby, which you can [download and install here](https://www.ruby-lang.org/en/downloads/)
@@ -48,7 +48,7 @@ The boilerplate contains layouts, a bit of styling, and a sample article we're g
 
 But first we need to fork, clone and setup the repository.
 
-<!> Before we dive in with the command line, there are 3 kinds of lines : 
+<!> Before we dive in with the command line, there are 3 kinds of lines :
 
 ```bash
 $ this is a command we are going to enter
@@ -61,7 +61,7 @@ Ok let's go !
 
 First, [follow this guide](https://help.github.com/articles/fork-a-repo/) in order to fork the boilerplate repository to your own Github account.
 
-Then you can clone the repository into one of your local folders : 
+Then you can clone the repository into one of your local folders :
 
 ```bash
 $ git clone git@github.com:<your_github_handle>/rust-lang-blog-boilerplate.git
@@ -73,7 +73,7 @@ Receiving objects: 100% (57/57), 31.83 KiB | 378.00 KiB/s, done.
 Resolving deltas: 100% (17/17), done.
 ```
 
-Now you have the new repository, and we can set it up and run the blog locally ! In the same command line, let's go to the boilerplate directory, and install the ruby requirements for jekyll : 
+Now you have the new repository, and we can set it up and run the blog locally ! In the same command line, let's go to the boilerplate directory, and install the ruby requirements for jekyll :
 
 ```bash
 $ cd rust-lang-blog-boilerplate
@@ -86,7 +86,7 @@ Parsing documentation for jekyll-3.8.1
 Done installing documentation for jekyll after 1 seconds
 2 gems installed
 ```
-Now that the global requirements have been installed, let's install the blog local requirements. 
+Now that the global requirements have been installed, let's install the blog local requirements.
 
 If you get any error while running the "gem install" command, this means ruby did not install correctly, or the executable is not in your PATH, you might want to log out and back into your session and make sure ruby got installed successfully.
 
@@ -94,7 +94,7 @@ If you get any error while running the "gem install" command, this means ruby di
 $ bundler install # Install the blog requirements
 [...] Using github-pages 92
 Bundle complete! 2 Gemfile dependencies, 53 gems now installed.
-Use `bundle info [gemname]` to see where a bundled gem is installed. 
+Use `bundle info [gemname]` to see where a bundled gem is installed.
 ```
 The blog requirements have been installed, let's run our blog for the first time !
 
@@ -109,7 +109,7 @@ Now visit [http://127.0.0.1:4000/rust-lang-blog-boilerplate/](http://127.0.0.1:4
 
 ## Conclusion
 
-Congratulations, you have successfully forked, cloned and setup your first blog ! 
+Congratulations, you have successfully forked, cloned and setup your first blog !
 
 In this article, we figured out how to install the requirements, and how to setup our local jekyll blog.
 
@@ -117,4 +117,4 @@ In the [next article]({{ "/2018/05/11/blogception-create-blog-jekyll-github-page
 
 If you're really eager to do it, have a look at the [_config.yml](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate/blob/master/_config.yml) file in the boilerplate, as well as the [README.md](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate/blob/master/README.md) file, and the [dummy blog post](https://github.com/o0Ignition0o/rust-lang-blog-boilerplate/blob/master/_posts/2018-05-10-blog-boilerplate.md) :)
 
-If you have any question, run into an issue, see a typo, want to show me your first blog post, or just wanna chat, please send me a DM on [twitter]({{ site.twitter_username | prepend: "https://twitter.com/" }}), or [open an issue](https://github.com/o0Ignition0o/blog/issues/new) on the blog repository, I would be glad to have a chat with you ! 
+If you have any question, run into an issue, see a typo, want to show me your first blog post, or just wanna chat, please send me a DM on [twitter]({{ site.twitter_username | prepend: "https://twitter.com/" }}), or [open an issue](https://github.com/o0Ignition0o/blog/issues/new) on the blog repository, I would be glad to have a chat with you !
